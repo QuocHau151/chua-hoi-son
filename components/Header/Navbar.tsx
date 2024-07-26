@@ -46,10 +46,10 @@ export default function Navbar() {
       ref={scope}
     >
       <motion.button
-        className=" w-full flex items-center justify-between mb-1 px-2"
+        className=" w-full flex items-center justify-between  px-2 "
         whileTap={{ scale: 0.97 }}
       >
-        Menu
+        Danh Mục
         {!isOpen ? (
           <RiMenu3Fill
             className="text-[20px]"
@@ -76,11 +76,6 @@ export default function Navbar() {
         <li>
           <Link href="#featured" onClick={() => setIsOpen(!isOpen)}>
             Các kiến trúc nổi bật
-          </Link>
-        </li>
-        <li>
-          <Link href="#map" onClick={() => setIsOpen(!isOpen)}>
-            Sơ đồ chánh điện
           </Link>
         </li>
         <li>

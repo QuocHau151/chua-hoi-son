@@ -50,7 +50,7 @@ export default function Featured() {
   return (
     <section className=" pt-20 md:max-w-[70%] md:mx-auto" id="featured">
       <h1 className="text-white text-[30px] text-center px-14 py-5">
-        Kiến trúc nổi bật Chùa Hội Sơn
+        Kiến trúc nổi bật <br /> Chùa Hội Sơn
       </h1>
       <Carousel
         setApi={setApi}

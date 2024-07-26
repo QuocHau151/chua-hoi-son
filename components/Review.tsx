@@ -7,7 +7,7 @@ export default function Review() {
   return (
     <section className="pt-20 container " id="review">
       <h1 className="text-white text-[30px] text-center px-14 pt-5 ">
-        Giới thiệu về Chùa Hội Sơn
+        Giới thiệu về <br /> Chùa Hội Sơn
       </h1>
       <div
         className={`"  space-y-4 text-white text-justify text-[13px] overflow-hidden  relative w-full" ${

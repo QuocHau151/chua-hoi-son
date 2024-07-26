@@ -14,7 +14,7 @@ export default function Hero() {
       />
       <div className=" container absolute top-[20%] md:text-center md:space-y-5">
         <h1 className="text-[45px] font-thin md:text-[60px]">Chùa Hội Sơn</h1>
-        <p className="pr-20 text-[18px] md:text-[22px] md:pr-0">
+        <p className="pr-20 text-[18px] ml-1 md:text-[22px] md:pr-0">
           DI TÍCH KIẾN TRÚC NGHỆ THUẬT QUỐC GIA
         </p>
         <div className="mt-3 flex items-center px-4 gap-4 rounded-[40px] border w-fit py-2 backdrop-blur-md md:mx-auto">

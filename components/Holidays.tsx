@@ -64,7 +64,7 @@ export default function Holidays() {
   return (
     <section className=" container pt-20 md:max-w-[70%]" id="holiday">
       <h1 className="text-white text-[30px] text-center px-5 py-5">
-        Ngày lễ quan trọng Chùa Hội Sơn
+        Ngày lễ quan trọng <br /> Chùa Hội Sơn
       </h1>
       <div>
         <Accordion
